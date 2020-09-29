@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="top|left"
+    tools:context=".SatislarListele">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView121"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center|left"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_ocak"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Ocak"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_subat"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Şubat"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mart"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Mart"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_nisan"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Nisan"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mayis"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Mayıs"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_haziran"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Haziran"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_temmuz"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Temmuz"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_agustos"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Ağustos"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_eylul"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Eylül"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_ekim"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Ekim"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_kasim"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Kasım"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_aralik"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center|left"
+            android:text="Aralık"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_top"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center|left"
+            android:text="Toplam"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_s_2019"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#46726E6E"
+            android:gravity="center"
+            android:text="2019"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_ocak19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_subat19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mart19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_nisan19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mayis19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_haziran19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_temmuz19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_agustos19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_eylul19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#1A00BEC8" />
+
+        <TextView
+            android:id="@+id/tv_s_ekim19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_kasim19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_aralik19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_top19"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_s_2020"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="2020"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_ocak20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_subat20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mart20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_nisan20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_mayis20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_haziran20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_temmuz20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_agustos20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_eylul20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_ekim20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_kasim20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_aralik20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#1A00BEC8"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <TextView
+            android:id="@+id/tv_s_top20"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</LinearLayout>

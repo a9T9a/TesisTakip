@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".AnaMenu">
+
+    <ImageButton
+        android:id="@+id/imgb_ana_lab"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lab" />
+
+    <TextView
+        android:id="@+id/tv_ana_lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Laboratuvar"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_ana_lab"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_lab"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_ana_lab" />
+
+    <ImageButton
+        android:id="@+id/imgb_ana_sevk"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgb_ana_stok"
+        app:layout_constraintStart_toEndOf="@+id/imgb_ana_lab"
+        app:layout_constraintTop_toTopOf="@+id/imgb_ana_lab"
+        app:srcCompat="@drawable/sevkiyat" />
+
+    <TextView
+        android:id="@+id/tv_ana_sevk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sevkiyat"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_ana_sevk"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_sevk"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_ana_sevk" />
+
+    <ImageButton
+        android:id="@+id/imgb_ana_stok"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgb_ana_sevk"
+        app:srcCompat="@drawable/stok" />
+
+    <TextView
+        android:id="@+id/tv_ana_stok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Stok"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_ana_stok"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_stok"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_ana_stok" />
+
+    <TextView
+        android:id="@+id/tv_ana_vardiya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vardiya"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_ana_vardiya"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_vardiya"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_ana_vardiya" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Garnet"
+        android:textColor="#0A6496"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="80 Mesh"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintStart_toStartOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="30/60 Mesh"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Toplam"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView36"
+        app:layout_constraintStart_toStartOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Geçen Ay"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="180 Mesh"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/tv_ana_180g"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/tv_ana_80g"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="Giden"
+        android:textColor="#0A6496"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/tv_ana_180s"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_180g"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_180g" />
+
+    <TextView
+        android:id="@+id/tv_ana_80s"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_80g"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_80g" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="Stok"
+        android:textColor="#0A6496"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toTopOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/tv_ana_3060s"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_3060g"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_3060g" />
+
+    <TextView
+        android:id="@+id/tv_ana_3060g"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toTopOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/tv_ana_top_g"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/tv_ana_ga_g"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toTopOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/tv_ana_top_s"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_top_g"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_top_g" />
+
+    <TextView
+        android:id="@+id/tv_ana_top_b"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_top_s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_top_s" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:text="Boş"
+        android:textColor="#0A6496"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toTopOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/tv_ana_3060b"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_3060s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_3060s" />
+
+    <TextView
+        android:id="@+id/tv_ana_180b"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_180s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_180s" />
+
+    <TextView
+        android:id="@+id/tv_ana_80b"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/tv_ana_80s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_80s" />
+
+    <ImageButton
+        android:id="@+id/imgb_ana_vardiya"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_stok"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_stok"
+        app:srcCompat="@drawable/vardiya" />
+
+    <Button
+        android:id="@+id/button_ana_stoklar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="0dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Stoklar"
+        android:textColor="#0A6496"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_ana_ga_g"
+        app:layout_constraintEnd_toEndOf="@+id/tv_ana_top_b"
+        app:layout_constraintStart_toStartOf="@+id/tv_ana_top_s"
+        app:layout_constraintTop_toTopOf="@+id/tv_ana_ga_g" />
+
+    <ImageView
+        android:id="@+id/imgb_ana_satis"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_sevk"
+        app:layout_constraintTop_toTopOf="@+id/imgb_ana_vardiya"
+        app:srcCompat="@drawable/satis" />
+
+    <TextView
+        android:id="@+id/tv_ana_satis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satışlar"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_ana_satis"
+        app:layout_constraintStart_toStartOf="@+id/imgb_ana_satis"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_ana_satis" />
+</androidx.constraintlayout.widget.ConstraintLayout>

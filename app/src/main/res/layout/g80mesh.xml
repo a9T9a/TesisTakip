@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv80bigbagno"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="Bigbag No"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv80_400"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:hint="+400"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv80_212"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:hint="-212"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv80_160"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:hint="-160"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv80_firma"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="Firma"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/cb80_gitti"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:textSize="12sp"
+            tools:text="Gitti" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv80_not"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:hint="Not"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv80_tarih"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="Tarih"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

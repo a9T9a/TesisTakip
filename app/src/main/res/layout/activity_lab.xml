@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".Lab">
+
+    <ImageButton
+        android:id="@+id/imgb_lab_3060"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/g3060" />
+
+    <ImageButton
+        android:id="@+id/imgb_lab_komur"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_3060"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/coal" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Analiz Gir"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_lab_3060"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_3060"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_lab_3060" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kömür Analiz"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_lab_komur"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_komur"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_lab_komur" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ağır Mineral Dağılım"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_dagilim"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgb_dagilim"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_dagilim" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fırın Ağır Mineral Analiz"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_lab_mineral"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_mineral"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_lab_mineral" />
+
+    <ImageButton
+        android:id="@+id/imgb_lab_80"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgb_lab_180"
+        app:layout_constraintStart_toEndOf="@+id/imgb_lab_3060"
+        app:layout_constraintTop_toTopOf="@+id/imgb_lab_3060"
+        app:srcCompat="@drawable/g80" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Analiz Gir"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_lab_80"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_80"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_lab_80" />
+
+    <ImageButton
+        android:id="@+id/imgb_lab_180"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgb_lab_80"
+        app:srcCompat="@drawable/g180" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Analiz Gir"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_lab_180"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_180"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_lab_180" />
+
+    <ImageButton
+        android:id="@+id/imgb_lab_mineral"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_80"
+        app:layout_constraintTop_toTopOf="@+id/imgb_lab_komur"
+        app:srcCompat="@drawable/mineral" />
+
+    <ImageButton
+        android:id="@+id/imgb_dagilim"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imgb_lab_180"
+        app:layout_constraintTop_toTopOf="@+id/imgb_lab_mineral"
+        app:srcCompat="@drawable/dagilim" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VardiyaGiris">
+
+    <ImageButton
+        android:id="@+id/imgb_vardg_yapis"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/work" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Geçmiş Liste"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_vardg_gec"
+        app:layout_constraintStart_toStartOf="@+id/imgb_vardg_gec"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_vardg_gec" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ölçüm"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_vardg_olcum"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imgb_vardg_olcum"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_vardg_olcum" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vardiyada Yapılanlar"
+        android:textColor="#008B9C"
+        app:layout_constraintEnd_toEndOf="@+id/imgb_vardg_yapis"
+        app:layout_constraintStart_toStartOf="@+id/imgb_vardg_yapis"
+        app:layout_constraintTop_toBottomOf="@+id/imgb_vardg_yapis" />
+
+    <ImageButton
+        android:id="@+id/imgb_vardg_gec"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgb_vardg_olcum"
+        app:layout_constraintStart_toEndOf="@+id/imgb_vardg_yapis"
+        app:layout_constraintTop_toTopOf="@+id/imgb_vardg_yapis"
+        app:srcCompat="@drawable/list_v" />
+
+    <ImageButton
+        android:id="@+id/imgb_vardg_olcum"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgb_vardg_gec"
+        app:srcCompat="@drawable/tarti" />
+</androidx.constraintlayout.widget.ConstraintLayout>

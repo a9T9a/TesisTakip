@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="340dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".Sevkiyat">
+
+    <ImageButton
+        android:id="@+id/imageButtongarnet"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/garnetsevk" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Garnet Sevkiyat"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtongarnet"
+        app:layout_constraintStart_toStartOf="@+id/imageButtongarnet"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtongarnet" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Silis Sevkiyat"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonsilis"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonsilis"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonsilis" />
+
+    <ImageButton
+        android:id="@+id/imageButtonsilis"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="90dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/imageButtongarnet"
+        app:layout_constraintTop_toTopOf="@+id/imageButtongarnet"
+        app:srcCompat="@drawable/silissevk" />
+</androidx.constraintlayout.widget.ConstraintLayout>

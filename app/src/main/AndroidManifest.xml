@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pomex.garnet">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ParseAyar"
+        android:allowBackup="true"
+        android:icon="@drawable/garnet"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SatislarGuncel"></activity>
+        <activity android:name=".SatislarListele" />
+        <activity android:name=".Satislar" />
+        <activity android:name=".ImageShow" />
+        <activity android:name=".g3060Duzelt" />
+        <activity android:name=".g180Duzenle" />
+        <activity android:name=".g80Duzenle" />
+        <activity android:name=".AylikStokGor" />
+        <activity android:name=".AylikStokListe" />
+        <activity android:name=".StokAylik" />
+        <activity android:name=".KomurAG" />
+        <activity android:name=".AMFOListe" />
+        <activity android:name=".AMFirinOlcum" />
+        <activity android:name=".AMUDagilimList" />
+        <activity android:name=".AMUDGoster" />
+        <activity android:name=".AgirMineralUrunDagilim" />
+        <activity android:name=".Kantar" />
+        <activity android:name=".VardiyaBilgiGoster" />
+        <activity android:name=".VardiyaGiris" />
+        <activity android:name=".VardiyaListe" />
+        <activity android:name=".VardiyaBilgi" />
+        <activity android:name=".Vardiya" />
+        <activity android:name=".FirinMineralAnaliz" />
+        <activity android:name=".Sevkiyat" />
+        <activity android:name=".SilisSevkiyat" />
+        <activity android:name=".KomurGoster" />
+        <activity android:name=".KomurAnaliz" />
+        <activity android:name=".MalzemeStokListe" />
+        <activity android:name=".MalGiris" />
+        <activity android:name=".Stok" />
+        <activity android:name=".Giris">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lab" />
+        <activity android:name=".AnaMenu" />
+        <activity android:name=".GarnetBigbagDuzenle" />
+        <activity android:name=".GarnetBigBagFiltrele" />
+        <activity android:name=".g3060BigbagGiris" />
+        <activity android:name=".g180BigbagGiris" />
+        <activity android:name=".g80BigbagGiris" />
+        <activity android:name=".GarnetSevkiyat" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

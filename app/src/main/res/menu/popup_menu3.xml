@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pop_guncel"
+        android:title="Güncel" />
+    <item
+        android:id="@+id/pop_gecmis"
+        android:title="Geçmiş" />
+</menu>
